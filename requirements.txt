@@ -1,0 +1,15 @@
+# Core dependencies for VQFlow dataset capture and automation
+selenium>=4.10.0,<5.0.0
+webdriver-manager>=4.0.0
+psutil>=5.9.0        # for process management and optional resource monitoring
+tqdm>=4.65.0         # progress bar for long capture loops
+requests>=2.31.0     # optional: metadata download or remote control
+python-dateutil>=2.8.2
+
+# Optional utilities (logging, JSON schema validation)
+pyyaml>=6.0.0
+jsonschema>=4.17.3
+
+# Development and reproducibility tools
+black>=24.3.0        # code formatting
+flake8>=6.1.0        # linting
